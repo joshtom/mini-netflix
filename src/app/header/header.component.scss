@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:600&display=swap');
+
+$bg-primary: blue;
+$fade-blue: #56CCF2;
+$regular-blue: #2F80ED;
+$header-fade: #bdc3c7;
+$header-dark: #2c3e50;
+$white: white;
+$font-poppins: 'Poppins', sans-serif;
+
+// Setting sizes
+$m-5: 5px;
+$m-10: 10px;
+$m-15: 15px;
+$m-20: 20px;
+$normal-padding: 10px;
+
+header{
+    background: $header-fade;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, $header-fade, $header-dark);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, $header-fade, $header-dark); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: $normal-padding;
+    justify-content: end;
+
+    .logo{
+        justify-content: center;
+        color: $white;
+
+        h3{
+            font-family: $font-poppins;
+            margin-top: $m-10;
+        }
+    }
+    button {
+        background: $fade-blue;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, $regular-blue, $fade-blue);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, $regular-blue, $fade-blue); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+}

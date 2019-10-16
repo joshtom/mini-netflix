@@ -1,0 +1,16 @@
+$w-full: 100%;
+$w-half: 50%;
+
+$h-100v: 100vh;
+$h-80v: 80vh;
+$h-60v: 60vh;
+.banner{
+    width: $w-full;
+    height: $h-80v;
+    background: blue;
+
+    input {
+        width: $w-half;
+        
+    }
+}
