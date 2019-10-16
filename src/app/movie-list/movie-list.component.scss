@@ -1,0 +1,18 @@
+$white: white;
+$r-5: 5px;
+$w-2: 2em;
+$w-3: 3em;
+$w-5: 5em;
+$w-10: 10em;
+$h-10: 2em;
+.container{
+    background: $white;
+    margin-top: -$w-3;
+    height: 500px;
+    border-top-right-radius: $r-5;
+    border-top-left-radius:  $r-5;
+
+    .row{
+        justify-content: space-between;
+    }
+}
