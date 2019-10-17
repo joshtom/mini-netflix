@@ -20,6 +20,10 @@ import { LoginComponent } from './login/login.component';
     LoginComponent
   ],
   imports: [
+    RouterModule.forRoot(
+      appRoutes, 
+      { enableTracing: true } // <-- Debugging purposes only
+    )
     BrowserModule,
     AppRoutingModule
   ],
