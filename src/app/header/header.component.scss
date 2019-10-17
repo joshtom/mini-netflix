@@ -16,9 +16,7 @@ $m-20: 20px;
 $normal-padding: 10px;
 
 header{
-    background: $header-fade;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, $header-fade, $header-dark);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, $header-fade, $header-dark); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: darken($color: #000000, $amount: 0);
     padding: $normal-padding;
     justify-content: end;
 
@@ -28,13 +26,11 @@ header{
 
         h3{
             font-family: $font-poppins;
-            margin-top: $m-10;
+            
         }
     }
     button {
-        background: $fade-blue;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, $regular-blue, $fade-blue);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, $regular-blue, $fade-blue); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        min-height: 40px;
 
     }
 }

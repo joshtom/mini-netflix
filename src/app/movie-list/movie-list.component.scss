@@ -9,8 +9,7 @@ $h-10: 2em;
     background: $white;
     margin-top: -$w-3;
     height: 500px;
-    border-top-right-radius: $r-5;
-    border-top-left-radius:  $r-5;
+    border-radius: $r-5;
 
     .row{
         justify-content: space-between;

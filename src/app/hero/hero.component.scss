@@ -4,11 +4,15 @@ $w-half: 50%;
 $h-100v: 100vh;
 $h-80v: 80vh;
 $h-60v: 60vh;
+$primary: blue;
 .banner{
     width: $w-full;
     height: $h-80v;
-    background: blue;
+    background:darken($color: $primary, $amount: 40%);;
 
+    .lift{
+        margin-top: -10px;
+    }
     input {
         width: $w-half;
         

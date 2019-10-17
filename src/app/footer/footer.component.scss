@@ -1,0 +1,11 @@
+$w-100: 100%;
+$h-400: 200px;
+$primary: blue;
+$white: white;
+
+footer{
+    color: white;
+    width: $w-100;
+    background: darken($color: $primary, $amount: 40%);
+    height: $h-400;
+}
