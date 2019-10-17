@@ -3,5 +3,12 @@ body{
     background: $body-bg;
     scroll-behavior: smooth;
 }
-@import '../node_modules/bootstrap/scss/bootstrap.scss'
-/* You can add global styles to this file, and also import other style files */
+
+$theme-colors: (
+  "primary": #0074d9,
+  "danger": #F40612
+);
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+

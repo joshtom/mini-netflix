@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:600&display=swap');
 
 $bg-primary: blue;
+$red: #F40612;
 $fade-blue: #56CCF2;
 $regular-blue: #2F80ED;
 $header-fade: #bdc3c7;
@@ -20,6 +21,9 @@ header{
     padding: $normal-padding;
     justify-content: end;
 
+    .text-red{
+        color: $red;
+    }
     .logo{
         justify-content: center;
         color: $white;
@@ -31,6 +35,10 @@ header{
     }
     button {
         min-height: 40px;
-
+        background: $red;
+        color: $white;
+        .btn-red{
+            background: $red;
+        }
     }
 }
