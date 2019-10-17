@@ -9,7 +9,21 @@ import { HeroComponent } from './hero/hero.component';
 import { MovieListComponent } from './movie-list/movie-list.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
+
+
+const appRoutes: Routes = [
+  { 
+    path: 'login', 
+    component: LoginComponent,
+    data: { title: 'Login here' } 
+  },
+  {
+    path: '**',
+    component: NotFoundComponent,
+  }
+]
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,13 +31,14 @@ import { LoginComponent } from './login/login.component';
     HeroComponent,
     MovieListComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    NotFoundComponent
   ],
   imports: [
     RouterModule.forRoot(
       appRoutes, 
       { enableTracing: true } // <-- Debugging purposes only
-    )
+    ),
     BrowserModule,
     AppRoutingModule
   ],
