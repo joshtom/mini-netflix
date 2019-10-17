@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Poppins:600&display=swap');
 $body-bg: #B8BFC3;
 body{
     background: $body-bg;
     scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
 }
 
 $theme-colors: (

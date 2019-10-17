@@ -1,6 +1,6 @@
 $w-full: 100%;
 $w-half: 50%;
-
+$white: white;
 $h-100v: 100vh;
 $h-80v: 80vh;
 $h-60v: 60vh;
@@ -9,13 +9,26 @@ $red: #F40612;
 .banner{
     width: $w-full;
     height: $h-80v;
-    background:darken($color: $primary, $amount: 40%);
+    background: #3A1C71;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+    h1{
+        font-family: 'Abel', sans-serif;
+    }
     .lift{
         margin-top: -10px;
     }
     input {
         width: $w-half;
+        background: rgba($color: #000000, $alpha: 1.0);
+        border: none;
+        &:focus {
+            outline-color: $red;
+            border: none;
+            box-shadow: 0 0 0 0.2rem rgba($color: #ff2356, $alpha: 0.4);
+        }
         
     }
 }
+
