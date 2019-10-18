@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { IndexPageComponent } from './index-page/index-page.component';
 
 
 
@@ -37,7 +38,8 @@ const appRoutes: Routes = [
     MovieListComponent,
     FooterComponent,
     LoginComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    IndexPageComponent
   ],
   imports: [
     RouterModule.forRoot(
