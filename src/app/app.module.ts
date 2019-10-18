@@ -18,7 +18,7 @@ import { IndexPageComponent } from './index-page/index-page.component';
 const appRoutes: Routes = [
   {
     path: '',
-    component: HeroComponent,
+    component: IndexPageComponent,
   },
   { 
     path: 'login', 
