@@ -15,6 +15,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 const appRoutes: Routes = [
+  {
+    path: '',
+    component: HeroComponent,
+  },
   { 
     path: 'login', 
     component: LoginComponent,
