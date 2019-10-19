@@ -48,6 +48,7 @@ const appRoutes: Routes = [
       { enableTracing: true } // <-- Debugging purposes only
     ),
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule
   ],
