@@ -1,8 +1,8 @@
-    // {
-    //     "moviesUrl" : "urlHere",
-    //     "textfile" : "assets/textfile.txt"
+    {
+        "moviesUrl" : "urlHere",
+        "textfile" : "assets/textfile.txt"
 
-    // }
+    };
 
 [
     
