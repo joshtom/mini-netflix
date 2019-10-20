@@ -5,7 +5,12 @@ import { HttpClient } from '@angular/common/http'
   providedIn: 'root'
 })
 export class MovieService {
+  movies = [];
 
+
+  getMovie() {
+    return this.http.get('/assets/movies.json');
+  }
   constructor(
     private http: HttpClient
   ) { }
