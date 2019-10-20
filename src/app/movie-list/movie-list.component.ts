@@ -13,7 +13,7 @@ export class MovieListComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    // Setting the items using the movieServices getMovie()
+    // Setting the movies using the movieServices getMovie()
     this.movies = this.movieService.getMovie()
   }
 
