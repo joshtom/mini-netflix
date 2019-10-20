@@ -13,6 +13,7 @@ import { LoginComponent } from './login/login.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { IndexPageComponent } from './index-page/index-page.component';
+import { MovieService } from './movie.service';
 
 
 
@@ -52,7 +53,7 @@ const appRoutes: Routes = [
     AppRoutingModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [MovieService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
